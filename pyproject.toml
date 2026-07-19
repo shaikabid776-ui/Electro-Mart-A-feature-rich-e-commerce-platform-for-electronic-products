@@ -1,7 +1,7 @@
 [project]
 name = "electromart"
 version = "0.1.0"
-requires-python = ">=3.9"
+requires-python = ">=3.12,<3.13"
 dependencies = [
     "bcrypt==4.3.0",
     "blinker==1.9.0",
@@ -23,7 +23,6 @@ dependencies = [
     "kiwisolver==1.4.7",
     "MarkupSafe==3.0.2",
     "mysql-connector-python==9.4.0",
-    "mysqlclient==2.2.7",
     "numpy==2.3.3",
     "packaging==25.0",
     "pandas==2.3.2",
